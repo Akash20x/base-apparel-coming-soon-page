@@ -35,7 +35,7 @@ Users should be able to:
 
 ### What I learned
 
-* Although it looks fairly simple looking at the design, it involved quite a lot of css trickery! Especially with the design of the button and background!
+* Although it looks fairly simple looking at the design, it involved quite a lot of css trickery! Especially with the design of the background!
 
 ## Author
 
