@@ -21,8 +21,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
-- Live Site URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/base-apparel-coming-soon-page-wZN6Nmq1U8
+- Live Site URL: https://akash20x.github.io/base-apparel-coming-soon-page/
 
 ## My process
 
