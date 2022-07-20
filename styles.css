@@ -1,10 +1,11 @@
 html {
-    box-sizing: border-box;
+    font-size: 62.5%;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-    margin: 0px;
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -12,6 +13,7 @@ body {
     height: 100vh;
     width: 100vw;
     font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
 }
 
 main {
@@ -33,9 +35,9 @@ main {
 .logo{
     grid-column: 1/2;
     grid-row: 1/2;
-    width: 160px;
+    width: 16rem;
     margin-left: 19%;
-    margin-top: 64px;
+    margin-top: 6.4rem;
 }
 
 
@@ -43,12 +45,12 @@ section {
     grid-column: 1/2;
     grid-row: 2/3;
     margin-left: 19%;
-    margin-top: 75px;
+    margin-top: 7.5rem;
 }
 
 
 h1 {
-    font-size: 64px;
+    font-size: 6.4rem;
     text-transform:uppercase;font-weight: 300;
     letter-spacing: 15px;
     color: hsl(0, 36%, 70%);
@@ -62,8 +64,8 @@ h1 span {
 h1+p {
     color: hsl(0, 36%, 70%);
     line-height: 1.8;
-    width: 430px;
-    margin-top: 30px;
+    width: 43rem;
+    margin-top: 3rem;
 }
 
 
@@ -79,17 +81,17 @@ aside {
 
 
 form {
-    margin-top: 40px;
+    margin-top: 4rem;
     display: flex;
     align-items: center;
 }
 
 input {
-    width:445px;
-    height:56px;
-    border-radius: 30px;
+    width:44.5rem;
+    height:5.6rem;
+    border-radius: 3rem;
     border: solid 1px hsla(0, 36%, 70%, 0.685);
-    padding-left: 30px;
+    padding-left: 3rem;
     background-color: transparent;
     color: hsl(0, 36%, 70%);
     outline:none;
@@ -104,10 +106,10 @@ input::placeholder {
 }
 
 button{
-    margin-left: -100px;
-    height: 56px;
-    width: 100px;
-    border-radius:30px;
+    margin-left: -10rem;
+    height: 5.6rem;
+    width: 10rem;
+    border-radius:3rem;
     background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
     border: none;
     -webkit-box-shadow: 0px 14px 23px 0px rgba(50, 50, 50, 0.27);
@@ -121,22 +123,22 @@ button:hover {
 }
 
 button img{
-    height: 20px;
-    width: 12px;
-    margin-top: 10px;
+    height: 2rem;
+    width: 1.2rem;
+    margin-top: 1rem;
 }
 
-#error_text {
-    margin-left:31px;
-    margin-top: 10px;
+.error_text {
+    margin-left:3.1rem;
+    margin-top: 1rem;
     color: hsl(0, 93%, 68%)
 }
 
-#error_icon {
-    height: 24px;
-    width: 24px;
-    margin-top: 0px;
-    margin-left: -150px;
+.error_icon {
+    height: 2.4rem;
+    width: 2.4rem;
+    margin-top: 0rem;
+    margin-left: -15rem;
     color:transparent;
 }
 
@@ -148,14 +150,14 @@ button img{
 @media (max-width: 1023px) {
 
     .logo {
-    margin-left: 40px;  
+    margin-left: 4rem;  
     }
 
     section {
-        margin-left: 40px;
+        margin-left: 4rem;
     }
 
-    #error_text {
+    .error_text {
         text-align: left;
         color: hsl(0, 93%, 68%)
 
@@ -177,7 +179,7 @@ button img{
         grid-row: 2/3;
         grid-column: 1/2;
         background-image: url(images/hero-mobile.jpg);
-        min-height:250px;
+        min-height:25rem;
     }
 
     section {
@@ -191,13 +193,13 @@ button img{
     .logo {
         margin: 0;
         align-self: center;
-        margin-left: 30px;
+        margin-left: 3rem;
     }
 
     h1 {
-        font-size: 32px;
+        font-size: 3.2rem;
         letter-spacing: 8px;
-        margin-top: 65px;
+        margin-top: 6.5rem;
     }
 
     h1+p {
@@ -206,22 +208,22 @@ button img{
 
     form {
         width:85vw;
-        max-width:445px;
+        max-width:44.5rem;
         margin: 0 auto;
-        margin-top: 35px;
+        margin-top: 3.5rem;
     }
 
     input {
-        max-width:445px;
+        max-width:44.5rem;
         width: 100%;
-        height: 47px;
+        height: 4.7rem;
     }
 
     button{
-        margin-left: -65px;
-        height: 47px;
-        width: 65px;
-        border-radius:30px;
+        margin-left: -6.5rem;
+        height: 4.7rem;
+        width: 6.5rem;
+        border-radius:3rem;
         background: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
         border: none;
         -webkit-box-shadow: 0px 14px 23px 0px rgba(50, 50, 50, 0.27);
@@ -229,19 +231,15 @@ button img{
         box-shadow:         0px 14px 23px 0px rgba(50, 50, 50, 0.27);
     }
 
-    #error_icon {
-        margin-left: -100px;
+    .error_icon {
+        margin-left: -10rem;
     }
 
-    #error_text {
+    .error_text {
         margin: 0 auto;
-        margin-top: 10px;
-        padding-left: 31px;
-        max-width:445px;
+        margin-top: 1rem;
+        padding-left: 3.1rem;
+        max-width:44.5rem;
         width: 100%;
     }
-
 }
-
-
-
